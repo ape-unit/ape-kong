@@ -198,7 +198,7 @@ function AnimClimb(dir){
 						joueur.moving = false;
 					}else{
 						joueur.moving = true;
-						joueur.y -= 2;
+						joueur.y -= 5;
 					}
 		}
 		else if (ladder != -1 && ladder < joueur.y && !joueur.jump && joueur.vitesseX == 0) {

@@ -174,7 +174,7 @@ class Echelle {
 	constructor(x, y,h) {
       this.x = x || 0;
       this.y = y || 0;
-      this.l = canvas.width/19;
+      this.l = canvas.width/15;
       this.h = h || 20;
 	}
 	
